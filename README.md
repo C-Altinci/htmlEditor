@@ -1,7 +1,5 @@
 
 # htmlEditor
-Javascript wysiwyg html editor.
-
         //-----------------html editor example-------------------
         /*Available all the buttons list:*/
         // buttonList = ['xhtml', 'fontSize', 'fontFamily', 'formatBlock', 'bold', 'italic', 'underline', 'bgcolor', 'forecolor', 'center', 'justify', 'left', 'right', 'hr', 'ol', 'ul', 'indent', 'outdent', 'paragraf', 'ticket', 'strikethrough', 'subscript', 'superscript', 'removeformat', 'insertImage', 'link', 'unlink', 'youtube', 'video', 'audio', 'subtitleimage', 'twitter', 'facebook', 'preview', 'fullScreen']
@@ -18,7 +16,7 @@ Javascript wysiwyg html editor.
             fullButtons: true,              /* optional, default: false     */
             theme: '#9bc2e8',               /* optional, default: '#cccccc' */
             gradient: true,                 /* optional, default: false     */
-            statusPanelDisplay: true,
+            statusPanelDisplay: true,       /* optional, default: true      */
             /* Optional */  buttonList: ['xhtml', 'bold', 'italic', 'underline', 'bgcolor', 'forecolor', 'center', 'justify', 'left', 'right', 'hr', 'ol', 'ul', 'indent', 'outdent', 'strikethrough', 'subscript', 'superscript', 'removeformat']
         });
         /*
@@ -40,3 +38,4 @@ Javascript wysiwyg html editor.
         Regards...
         Çağlayan ALTINCI
         caglayana@hotmail.com
+        */
